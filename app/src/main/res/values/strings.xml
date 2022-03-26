@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="about_menu"><![CDATA[about/> </menu>]]></string>
+    <string name="profile">profile</string>
+    <string name="about">about</string>
+    <string name="favourites">favourites</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">dashboard_fragment</string>
+    <string name="favourite_fragment">Favourite Fragment</string>
+    <string name="sort">Sort</string>
+    <string name="don_t_have_an_account">Don\'t have an account? SignUp</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+</resources>

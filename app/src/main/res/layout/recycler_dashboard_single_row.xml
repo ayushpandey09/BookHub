@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llContent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:orientation="horizontal"
+    android:weightSum="6">
+    <ImageView
+        android:id="@+id/imgItemIcon"
+        android:layout_weight="1.5"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:src="@mipmap/ic_launcher"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        />
+<RelativeLayout
+    android:layout_weight="3.3"
+    android:layout_width="0dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Name of the book"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+   <TextView
+       android:id="@+id/txtBookAuthor"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Book Author"
+       android:layout_below="@+id/txtBookName"
+       android:padding="10dp"
+       android:textSize="15sp"
+       />
+    <TextView
+        android:id="@+id/txtBookPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBookAuthor"
+        android:text="Rs. 299"
+        android:padding="9dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#F10D0D"/>
+</RelativeLayout>
+    <TextView
+        android:id="@+id/txtBookRating"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:padding="4dp"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/ic_about"
+        android:text="4.5"
+        android:drawablePadding="4dp"
+        android:textStyle="bold"/>
+</LinearLayout>
